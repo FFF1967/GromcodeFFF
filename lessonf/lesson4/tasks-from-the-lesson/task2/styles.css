@@ -1,4 +1,4 @@
-main {
+.list {
     font-size: 24px;
 }
 
@@ -6,6 +6,6 @@ p {
     color: green;
 }
 
-ul {
+li {
     color: orange;
 }
