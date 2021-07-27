@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Первые стили</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+    <style>
+        section {
+            color: green;
+        }
+        
+        ul {
+            font-size: 22px;
+        }
+        
+        .list {
+            color: orange;
+        }
+        
+        .list2 {
+            background-color: yellow;
+        }
+        
+        .list3 {
+            background-color: red;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+        <p>Стили элементу можно задать с помощью:</p>
+        <ul>
+            <li>Атрибута 'style'</li>
+            <li>Тега 'style'</li>
+            <li class="list">Используя отдельный файл с расширением <code>.css</code></li>
+        </ul>
+    </section>
+    <section class="list2">
+        <p>CSS свойства "width" и "height" не работают для инлайновых элементов</p>
+        <p class="list3">
+            Наследование в CSS — механизм, с помощью которого значения свойств элемента-родителя передаются его элементам-потомкам.
+        </p>
+    </section>
+</body>
+
+</html>
