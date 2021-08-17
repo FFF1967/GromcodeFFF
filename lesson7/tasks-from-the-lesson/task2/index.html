@@ -7,22 +7,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
-        ul>li:first-child>span {
+        Li {
+            margin-bottom: 16px;
+        }
+        
+        li:nth-child(1) {
             background-color: red;
             color: white;
         }
         
-        li:last-child>span {
+        li:nth-child(6) {
             background-color: black;
             color: white;
         }
         
-        li:nth-child(3) {
-            font-weight: bold;
+        span:nth-child(even) {
+            margin-left: 16px;
         }
         
-        li:nth-child(odd) {
-            margin-left: 16px;
+        div .paragraphs:nth-child(odd) {
+            background-color: gray;
         }
     </style>
 </head>
