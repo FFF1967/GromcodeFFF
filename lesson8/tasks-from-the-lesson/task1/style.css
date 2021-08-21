@@ -3,7 +3,7 @@ body {
 }
 
 .content {
-    border: black solid 8px;
+    border: 8px solid black;
     margin: 16px;
     padding: 16px;
     width: 512px;
