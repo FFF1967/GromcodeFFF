@@ -5,13 +5,13 @@ body {
 .block_red {
     background-color: red;
     height: 300px;
-    width: 10vw;
+    width: 20vw;
 }
 
 .block_green {
     background-color: green;
     height: 300px;
-    width: 10vw;
+    width: 20vw;
 }
 
 .block_blue {
