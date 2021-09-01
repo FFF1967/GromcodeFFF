@@ -17,17 +17,17 @@ body {
 .block_blue {
     background-color: blue;
     height: 300px;
-    width: 10vw;
+    width: 20vw;
 }
 
 .block_yellow {
     background-color: yellow;
     height: 300px;
-    width: 10vw;
+    width: 20vw;
 }
 
 .block_black {
     background-color: black;
     height: 300px;
-    width: 10vw;
+    width: 20vw;
 }
