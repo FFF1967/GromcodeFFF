@@ -3,6 +3,7 @@
     padding: 16px;
     background-color: bisque;
     flex-basis: 300px;
+    display: block;
 }
 
 header {
