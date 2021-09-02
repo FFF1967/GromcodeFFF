@@ -4,3 +4,8 @@
     background-color: bisque;
     flex-basis: 300px;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+}
