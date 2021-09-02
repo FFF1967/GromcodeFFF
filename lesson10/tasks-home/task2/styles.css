@@ -1,12 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
 .article {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
     flex-basis: 300px;
-    display: block;
-}
-
-header {
-    display: flex;
-    justify-content: center;
+    width: 100vw;
 }
