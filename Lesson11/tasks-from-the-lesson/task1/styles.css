@@ -1,4 +1,4 @@
-.conteiner>div:nth-child(1) {
+div>div:nth-child(1) {
     display: none;
 }
 
