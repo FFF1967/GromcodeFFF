@@ -11,6 +11,11 @@
     cursor: pointer;
 }
 
+.dropdown:hover {
+    opacity: 1;
+    font-size: 16px;
+}
+
 .menu-list {
     /*
     visibility: hidden;*/
