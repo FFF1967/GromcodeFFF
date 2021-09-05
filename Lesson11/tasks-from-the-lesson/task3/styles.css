@@ -1,8 +1,6 @@
-* {
-    margin: 16px;
-}
-
 .dropdown {
+    position: relative;
+    margin: 16px;
     padding: 16px;
     background-color: darkgreen;
     color: white;
