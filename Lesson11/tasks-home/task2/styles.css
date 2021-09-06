@@ -3,10 +3,10 @@
 }
 
 .gallery {
-    overflow-x: auto;
+    overflow-y: auto;
     cursor: all-scroll;
 }
 
-.tumb {
+.thumb {
     margin: 8px;
 }
