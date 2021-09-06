@@ -1,0 +1,12 @@
+/*.gallery {
+    display: flex;
+}*/
+
+.gallery {
+    overflow-y: auto;
+    cursor: all-scroll;
+}
+
+.tumb {
+    margin: 8px;
+}
