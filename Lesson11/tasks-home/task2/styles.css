@@ -1,9 +1,9 @@
-/*.gallery {
+.gallery {
     display: flex;
-}*/
+}
 
 .gallery {
-    overflow-y: auto;
+    overflow-x: auto;
     cursor: all-scroll;
 }
 
