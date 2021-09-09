@@ -12,6 +12,7 @@ html {
 
 .properties-list__item {
     padding: 8px;
+    height: 32px;
 }
 
 .properties-list {
