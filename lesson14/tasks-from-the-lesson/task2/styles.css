@@ -2,7 +2,7 @@
     background-color: blueviolet!important;
 }
 
-.text::first-letter {
+p[class]::first-letter {
     color: green;
     font-size: 24px;
 }
