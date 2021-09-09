@@ -3,9 +3,19 @@ html {
 }
 
 .properties-list {
-    color: #f39;
+    /*color: #f39;
     font-size: 24px;
     height: 32px;
     padding: 8px;
-    list-style-type: none;
+    list-style-type: noen;*/
+}
+
+.properties-list__item {
+    padding: 8px;
+}
+
+.properties-list {
+    color: #f39;
+    font-size: 24px;
+    list-style-type: noen;
 }
