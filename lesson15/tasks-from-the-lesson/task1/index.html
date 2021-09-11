@@ -22,68 +22,63 @@
             display: flex;
         }
         
-        .main-image {
-            margin: 20px auto 0;
-            display: block;
-            max-width: 100%;
-            border-radius: 10px;
+        .opacity {
+            filter: opacity(50%);
+            margin: 16px;
+            box-shadow: 0px 5px 30px -9px rgba(0, 0, 0, 0.75);
+        }
+        
+        .blur {
+            filter: blur(4px);
+            margin: 16px;
+            box-shadow: 0px 5px 30px -9px rgba(0, 0, 0, 0.75);
+        }
+        
+        .invert {
+            filter: invert(100%);
+            margin: 16px;
+            box-shadow: 0px 5px 30px -9px rgba(0, 0, 0, 0.75);
+        }
+        
+        .cap {
+            text-align: center;
+            line-height: 30px;
         }
     </style>
 </head>
 
 <body>
     <div class="image-container">
-        <img src="big.jpeg">
+        <img src="big.jpeg" alt="big">
     </div>
 
-    <div>
-        <figure>
-            <figcaption>
-                <img class="card" src="small.jpg" alt="Opacity">
+    <div class="gallery">
+        <figure class="card">
+
+            <img class="opacity" src="small.jpg" alt="Opacity">
+            <figcaption class="cap">
+                Opacity
             </figcaption>
         </figure>
-    </div>
-    <div>
-        <figure>
-            <figcaption>
-                <img class="card" src="small.jpg" alt="Blur">
+
+        <figure class="card">
+
+            <img class="blur" src="small.jpg" alt="Blur">
+            <figcaption class="cap">
+                Blur
             </figcaption>
         </figure>
-    </div>
-    <div>
-        <figure>
-            <figcaption>
-                <img class="card" src="small.jpg" alt="Invert">
+        <figure class="card">
+
+            <img class="invert" src="small.jpg" alt="Invert">
+            <figcaption class="cap">
+                Invert
             </figcaption>
         </figure>
+
     </div>
+
 
 </body>
 
 </html>
-
-
-<div>
-    <img class="main-image" src="big.jpeg" alt="Land with tree">
-</div>
-
-<div class="gallery">
-    <figure class="card">
-        <img class="opacity-filter" src="small.jpg" alt="Opacity filter">
-        <figcaption class="caption">
-            Opacity
-        </figcaption>
-    </figure>
-    <figure class="card">
-        <img class="blur-filter" src="small.jpg" alt="Blur filter">
-        <figcaption class="caption">
-            Blur
-        </figcaption>
-    </figure>
-    <figure class="card">
-        <img class="invert-filter" src="small.jpg" alt="Invert filter">
-        <figcaption class="caption">
-            Invert
-        </figcaption>
-    </figure>
-</div>
