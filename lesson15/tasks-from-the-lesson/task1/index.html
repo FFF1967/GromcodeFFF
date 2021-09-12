@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
     <title>Document</title>
     <style>
-        .image-container {
+        .main-image {
+            display: block;
             margin: 0;
             margin-top: 50px;
             margin-bottom: 50px;
-            display: block;
-            justify-content: center;
-            min-width: 100%;
+            max-width: 100%;
             border-radius: 20px;
         }
         
@@ -49,7 +48,7 @@
 
 <body>
     <div class="image-container">
-        <img src="big.jpeg" alt="big">
+        <img class="main-image" src="big.jpeg" alt="big">
     </div>
 
     <div class="gallery">
