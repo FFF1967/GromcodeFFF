@@ -13,11 +13,38 @@
             min-width: 100%;
             border-radius: 10px;
         }
+        
+        .gallery {
+            display: flex;
+        }
+        
+        .card {
+            margin: 16px;
+        }
+        
+        .opacity {
+            filter: opacity(50%);
+        }
+        
+        .cap {
+            line-height: 30px;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
     <img class="main-image" src="big.jpeg" alt="Pic">
+
+    <div class="gallery">
+        <figure class="card">
+
+            <img class="opacity" src="small.jpg" alt="Opacity">
+            <figcaption class="cap">
+                Opacity
+            </figcaption>
+        </figure>
+    </div>
 </body>
 
 </html>
