@@ -6,20 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
     <style>
         .main-video {
-            max-width: 100%;
-            height: auto;
-            margin: 0 auto;
-            margin-top: 50px;
+            width: 500px;
+            margin: 200px auto;
             display: block;
         }
     </style>
 </head>
 
 <body>
-    <video class="main-video" controls poster="poster.jpg"></video>
-    <source src="example.mp4" type="video/mp4">
+    <video class="main-video" controls poster="poster.jpg">
+     <source src="example.mp4" type="video/mp4">   
+    </video>
+
 </body>
 
 </html>
