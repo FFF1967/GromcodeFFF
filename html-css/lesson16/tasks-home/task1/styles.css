@@ -1,9 +1,7 @@
-body {
-    background-color: bisque;
-}
+body {}
 
 .page {
-    box-sizing: content-box;
+    background-color: bisque;
 }
 
 .login-form {
@@ -22,6 +20,10 @@ body {
     text-align: center;
 }
 
+.form-control {
+    margin-bottom: 8px;
+}
+
 .form-label {
     display: flex;
     margin-bottom: 4px;
@@ -34,8 +36,6 @@ body {
     padding: 4px;
     width: 100%;
 }
-
-.page {}
 
 .submit-button {
     height: 32px;
