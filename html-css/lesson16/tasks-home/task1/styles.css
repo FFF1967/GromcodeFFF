@@ -1,4 +1,6 @@
-body {}
+* {
+    box-sizing: border-box;
+}
 
 .page {
     background-color: bisque;
@@ -51,4 +53,8 @@ body {}
     color: white;
     border-radius: 4px;
     width: 100%;
+}
+
+.form-input:invalid {
+    border: 3px solid #ff0000;
 }
