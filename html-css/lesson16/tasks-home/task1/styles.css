@@ -21,6 +21,7 @@ body {
 }
 
 .form-label {
+    display: flex;
     margin-bottom: 4px;
 }
 
