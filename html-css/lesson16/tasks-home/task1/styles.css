@@ -3,7 +3,7 @@ body {
 }
 
 .page {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .login-form {
@@ -20,9 +20,17 @@ body {
     text-align: center;
 }
 
-.form-label {}
+.form-label {
+    margin-bottom: 4px;
+}
 
-.form-input {}
+.form-input {
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid#808080;
+    padding: 4px;
+    width: 100%;
+}
 
 .page {}
 
@@ -33,4 +41,5 @@ body {
     text-transform: uppercase;
     color: white;
     border-radius: 4px;
+    width: 100%;
 }
