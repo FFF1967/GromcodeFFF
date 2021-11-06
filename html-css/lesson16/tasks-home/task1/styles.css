@@ -7,6 +7,8 @@ body {
 }
 
 .login-form {
+    display: flex;
+    flex-direction: column;
     width: 300px;
     padding: 16px;
     background-color: aqua;
