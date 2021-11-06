@@ -20,4 +20,15 @@ body {
     text-align: center;
 }
 
+.form-label {}
+
+.form-input {}
+
 .page {}
+
+.submit-button {
+    height: 32px;
+    background-color: #ff7f50;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
