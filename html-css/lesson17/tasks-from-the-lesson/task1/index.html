@@ -8,6 +8,10 @@
     <title>Document</title>
     <style>
         table {
+            width: 500px;
+        }
+        
+        table {
             margin: 32px;
         }
         
@@ -22,56 +26,68 @@
         td,
         th {
             padding: 4px;
+            text-align: right;
+        }
+        
+        div {
+            overflow-x: auto;
         }
     </style>
 </head>
 
 <body>
-    <table>
-        <thead>
-            <th>Product</th>
-            <th>Amount</th>
-            <th>Price</th>
-            <th>Total</th>
-        </thead>
-        <tbody>
+    <div>
 
 
-            <tr>
-                <td>Milk</td>
-                <td>3</td>
-                <td>$2</td>
-                <td>$6</td>
-
-            </tr>
-            <tr>
-                <td>Bread</td>
-                <td>3</td>
-                <td>$1</td>
-                <td>$2</td>
-
-            </tr>
-            <tr>
-                <td>Meat</td>
-                <td>5</td>
-                <td>$4</td>
-                <td>$20</td>
-
-            </tr>
-
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3">Total</td>
+        <table>
+            <caption>
+                Snoping List
+            </caption>
+            <thead>
+                <th>Product</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Total</th>
+            </thead>
+            <tbody>
 
 
-                <td>$8</td>
+                <tr>
+                    <td>Milk</td>
+                    <td>3</td>
+                    <td>$2</td>
+                    <td>$6</td>
+
+                </tr>
+                <tr>
+                    <td>Bread</td>
+                    <td>3</td>
+                    <td>$1</td>
+                    <td>$2</td>
+
+                </tr>
+                <tr>
+                    <td>Meat</td>
+                    <td>5</td>
+                    <td>$4</td>
+                    <td>$20</td>
+
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
 
 
-            </tr>
+                    <td>$8</td>
 
-        </tfoot>
-    </table>
+
+                </tr>
+
+            </tfoot>
+        </table>
+    </div>
 </body>
 
 </html>
