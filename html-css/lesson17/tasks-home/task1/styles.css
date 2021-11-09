@@ -18,3 +18,7 @@ tr,
 th {
     border-collapse: collapse;
 }
+
+.black {
+    background-color: black;
+}
