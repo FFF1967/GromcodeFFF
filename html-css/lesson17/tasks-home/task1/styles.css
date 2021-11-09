@@ -22,3 +22,5 @@ th {
 .black {
     background-color: black;
 }
+
+tr:nth-child(1) {}
