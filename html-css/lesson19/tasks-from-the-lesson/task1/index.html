@@ -22,6 +22,27 @@
             background-color: coral;
             opacity: 0.5;
             text-align: center;
+            transition: width 2s opacity 0.5s;
+        }
+        
+        .container div:hover {
+            width: 100%;
+        }
+        
+        .rect:nth-child(2) {
+            transition-timing-function: linear;
+        }
+        
+        .rect:nth-child(3) {
+            transition-timing-function: ease-in-out;
+        }
+        
+        .rect:nth-child(4) {
+            transition-timing-function: ease-in;
+        }
+        
+        .rect:nth-child(5) {
+            transition-timing-function: ease-out;
         }
     </style>
 </head>
