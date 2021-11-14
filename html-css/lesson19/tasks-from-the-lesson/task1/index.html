@@ -7,54 +7,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
     <style>
-        * {
-            box-sizing: border-box;
-        }
-        
         .container {
             margin: 32px;
         }
         
-        .container div {
+        .rect {
             width: 100px;
             height: 100px;
-            margin-top: 16px;
+            margin-bottom: 16px;
             background-color: coral;
             opacity: 0.5;
             text-align: center;
-            transition: width 2s opacity 0.5s;
+            line-height: 100px;
         }
         
-        .container div:hover {
+        .rect:hover {
+            transition: width 2s opacity 0.5s;
             width: 100%;
             opacity: 1;
         }
         
-        .rect_linear {
+        .linear {
             transition-timing-function: linear;
         }
         
-        .rect_ease {
+        .ease {
             transition-timing-function: ease;
         }
         
-        .rect:nth-child(4) {
+        .ease-in {
             transition-timing-function: ease-in;
         }
         
-        .rect:nth-child(5) {
+        .ease-out {
             transition-timing-function: ease-out;
+        }
+        
+        .ease-in-out {
+            transition-timing-function: ease-in-out;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="rect_linear">linear</div>
-        <div class="rect_ease">ease</div>
-        <div class="rect_ease-in">ease-in</div>
-        <div class="rect_ease-out">ease-out</div>
-        <div class="rect_ease-in-out">ease-in-out</div>
+        <div class="rect linear">linear</div>
+        <div class="rect ease">ease</div>
+        <div class="rect ease-in">ease-in</div>
+        <div class="rect ease-out">ease-out</div>
+        <div class="rect ease-in-out">ease-in-out</div>
     </div>
 </body>
 
