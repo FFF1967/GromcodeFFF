@@ -32,14 +32,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            animation: mov 2s;
-            animation-timing-function: ease;
+            animation: mov 2s ease;
             animation-fill-mode: forwards;
         }
         
         @keyframes mov {
             from {
-                top: 100px;
+                top: -100px;
             }
             to {
                 top: calc(50vh-50px);
