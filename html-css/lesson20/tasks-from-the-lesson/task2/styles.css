@@ -15,7 +15,6 @@ body {
     border: none;
     margin: auto;
     animation: jump .4s, spin .5s, nide .1s 2s;
-    transition-timing-function: ease-in-out;
 }
 
 @keyframes jump {
