@@ -16,4 +16,5 @@ p {
     background-color: tomato;
     transform: translate(200px, 100px);
     transform: rotate(45deg);
+    transform: scale(1.5);
 }
