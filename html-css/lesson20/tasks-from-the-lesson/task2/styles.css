@@ -14,7 +14,7 @@ body {
     color: white;
     background-image: linear-gradient(45deg, yellow, red);
     margin: auto;
-    animation: jump .4s, spin .5s .4s, nide .5s 2s;
+    animation: jump .4s, spin .5s .4s, nide .5s 2s forwards;
 }
 
 @keyframes jump {
@@ -33,7 +33,7 @@ body {
     0% {
         transform: rotate(0);
     }
-    50% {
+    100% {
         transform: rotate(360deg);
     }
 }
