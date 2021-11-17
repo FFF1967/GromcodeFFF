@@ -8,5 +8,18 @@
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
+    transition-property: opacity;
     animation: blinking 2s infinite linear;
+}
+
+@keyframes blinking {
+    0% {
+        transform: opacity(0);
+    }
+    50% {
+        transform: opacity;
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
