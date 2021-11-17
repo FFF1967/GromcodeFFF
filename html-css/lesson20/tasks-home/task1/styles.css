@@ -9,6 +9,8 @@
 
 .spinner {
     display: flex;
+    margin: auto;
+    flex-direction: column;
 }
 
 .spinner-text {
