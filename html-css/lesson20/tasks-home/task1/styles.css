@@ -20,6 +20,7 @@
     font-size: 16px;
     text-transform: uppercase;
     animation: blinking 2s infinite linear;
+    .circle {}
 }
 
 @keyframes blinking {
