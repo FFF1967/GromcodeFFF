@@ -15,9 +15,10 @@ html {
 }
 
 .header {
+    display: flex;
     background-image: linear-gradient(60deg, red, orange);
     margin: 0;
-    text-align: center;
+    justify-content: center;
     color: #fff;
 }
 
