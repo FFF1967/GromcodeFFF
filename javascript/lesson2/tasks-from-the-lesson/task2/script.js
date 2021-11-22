@@ -15,7 +15,7 @@ console.log('h:', typeof h);
 const i = undefined;
 console.log('i:', typeof i);
 const j = Symbol("I'm a Symbol");
-console.log();
+console.log('j:', typeof j);
 const k = { name: 'John' };
 console.log();
 const l = [1, 2, 3, 4];
