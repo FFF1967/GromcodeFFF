@@ -7,10 +7,10 @@ console.log('c:', typeof c);
 const d = '17';
 console.log('d:', typeof d);
 const e = "I'm a string";
-
+console.log('e:', typeof e);
 
 console.log();
-console.log('b:', typeof b);
+
 console.log();
 const g = true;
 console.log();
