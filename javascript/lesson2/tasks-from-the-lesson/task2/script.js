@@ -9,7 +9,7 @@ console.log('d:', typeof d);
 const e = "I'm a string";
 console.log('e:', typeof e);
 const g = true;
-console.log('e:', typeof e);
+console.log('g:', typeof g);
 const h = null;
 console.log('h:', typeof h);
 const i = undefined;
