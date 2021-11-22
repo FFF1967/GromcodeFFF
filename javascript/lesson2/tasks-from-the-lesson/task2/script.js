@@ -23,4 +23,4 @@ console.log('l:', typeof l);
 const m = function run() {
     return 17;
 };
-console.log();
+console.log('m:', typeof m);
