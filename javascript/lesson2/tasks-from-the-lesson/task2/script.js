@@ -8,6 +8,8 @@ const d = '17';
 console.log('d:', typeof d);
 const e = "I'm a string";
 console.log('e:', typeof e);
+const f = false;
+console.log('f:', typeof f);
 const g = true;
 console.log('g:', typeof g);
 const h = null;
