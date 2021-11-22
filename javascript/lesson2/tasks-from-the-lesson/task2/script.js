@@ -5,10 +5,12 @@ console.log('b:', typeof b);
 const c = '17';
 console.log('c:', typeof c);
 const d = '17';
-console.log();
 console.log('d:', typeof d);
+const e = "I'm a string";
+
+
 console.log();
-const f = false;
+console.log('b:', typeof b);
 console.log();
 const g = true;
 console.log();
