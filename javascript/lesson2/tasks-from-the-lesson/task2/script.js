@@ -19,7 +19,7 @@ console.log('j:', typeof j);
 const k = { name: 'John' };
 console.log('k:', typeof k);
 const l = [1, 2, 3, 4];
-cconsole.log('l:', typeof l);
+console.log('l:', typeof l);
 const m = function run() {
     return 17;
 };
