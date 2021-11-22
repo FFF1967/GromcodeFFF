@@ -1,7 +1,7 @@
 const a = 17;
 console.log('a:', typeof a);
 const b = 17.17;
-console.log();
+console.log('b:', typeof b);
 const c = '17';
 console.log();
 const d = '17';
