@@ -1,5 +1,5 @@
 const a = 17;
-console.log();
+console.log(a);
 const b = 17.17;
 console.log();
 const c = '17';
