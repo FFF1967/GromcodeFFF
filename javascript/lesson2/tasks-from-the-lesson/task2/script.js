@@ -11,7 +11,7 @@ console.log('e:', typeof e);
 const g = true;
 console.log('e:', typeof e);
 const h = null;
-console.log();
+console.log('h:', typeof h);
 const i = undefined;
 console.log();
 const j = Symbol("I'm a Symbol");
