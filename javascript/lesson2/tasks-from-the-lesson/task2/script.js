@@ -13,7 +13,7 @@ console.log('e:', typeof e);
 const h = null;
 console.log('h:', typeof h);
 const i = undefined;
-console.log();
+console.log('i:', typeof i);
 const j = Symbol("I'm a Symbol");
 console.log();
 const k = { name: 'John' };
