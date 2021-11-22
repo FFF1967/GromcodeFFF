@@ -1,5 +1,5 @@
 const a = 17;
-tapeof(a);
+tapeof a;
 const b = 17.17;
 console.log();
 const c = '17';
