@@ -1,5 +1,5 @@
 const a = 17;
-tapeof a;
+console.log('a:', typeof a);
 const b = 17.17;
 console.log();
 const c = '17';
