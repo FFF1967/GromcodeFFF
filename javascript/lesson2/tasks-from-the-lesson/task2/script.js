@@ -6,7 +6,7 @@ const c = '17';
 console.log('c:', typeof c);
 const d = '17';
 console.log();
-const e = "I'm a string";
+console.log('d:', typeof d);
 console.log();
 const f = false;
 console.log();
