@@ -3,7 +3,7 @@ console.log('a:', typeof a);
 const b = 17.17;
 console.log('b:', typeof b);
 const c = '17';
-console.log();
+console.log('c:', typeof c);
 const d = '17';
 console.log();
 const e = "I'm a string";
