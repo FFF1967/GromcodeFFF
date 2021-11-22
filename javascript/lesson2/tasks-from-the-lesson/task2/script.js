@@ -1,15 +1,28 @@
 const a = 17;
+console.log();
 const b = 17.17;
+console.log();
 const c = '17';
+console.log();
 const d = '17';
+console.log();
 const e = "I'm a string";
+console.log();
 const f = false;
+console.log();
 const g = true;
+console.log();
 const h = null;
+console.log();
 const i = undefined;
+console.log();
 const j = Symbol("I'm a Symbol");
+console.log();
 const k = { name: 'John' };
+console.log();
 const l = [1, 2, 3, 4];
+console.log();
 const m = function run() {
     return 17;
 };
+console.log();
