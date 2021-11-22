@@ -1,1 +1,1 @@
-console.log('I JavaScript');
+alert('I JavaScript');
