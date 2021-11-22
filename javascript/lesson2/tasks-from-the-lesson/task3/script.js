@@ -1,6 +1,6 @@
 let goodNumber = 17;
 let anotherNumber = goodNumber;
-const anotherNumber = 77;
+anotherNumber = 77;
 console.log(goodNumber);
 console.log(anotherNumber);
 Object { customer: }
