@@ -1,38 +1,30 @@
-/* eslint-disable */
+// code below must be finished ;)
 
-// Унарный плюс приводит операнд к числу
-+17; +
-'77';
+/* cast to string */
+console.log('17 to string is ');
+console.log('-17.17 to string is ');
+console.log('false to string is ');
+console.log('null to string is ');
+console.log('undefined to string is ');
+console.log('0 to string is ');
 
-// Бинарный плюс складывает строки или прибавляет числа
-10 + '5';
-'some' + 'text';
+/* cast to number */
+console.log("'17' to number is ");
+console.log('true to number is ');
+console.log('false to number is ');
+console.log('null to number is ');
+console.log('undefined to number is ');
+console.log("'   20   ' to number is ");
+console.log("'      ' to number is ");
+console.log("'   30d   ' to number is ");
 
-// Математические операции с undefined возвращают NaN
-undefined + 1;
-null + 8;
-undefined + '5';
-7 - null;
-5 - undefined;
-'text' + null;
-
-// Постфиксная и префиксная форма записи
-let num = 17;
-++num;
-num++;
-
-// математические операторы приводят операнды к числам
-const a = 17;
-const b = -a;
-'24' / 4;
-18 * '3';
-'9' - '3';
-'seventeen' / 3;
-4 * 'four';
-17 / 0;
-
-10 + 'seven';
-undefined + 1;
-null + 8;
-undefined + '5';
-'text' + null;
+/* cast to boolean */
+console.log('null to boolean is ');
+console.log('undefined to boolean is ');
+console.log('0 to boolean is ');
+console.log('-0 to boolean is ');
+console.log('NaN to boolean is ');
+console.log("'' to boolean is ");
+console.log("' ' to boolean is ");
+console.log('17 to boolean is ');
+console.log("'Hello' to boolean is ");
