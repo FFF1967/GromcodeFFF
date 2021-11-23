@@ -17,13 +17,13 @@ console.log("undefined + 1:", undefined + 1);
 null + 8;
 console.log("null + 8:", null + 8);
 undefined + '5';
-console.log();
+console.log("undefined + '5':", undefined + '5');
 7 - null;
-console.log();
+console.log("7 - null:", 7 - null);
 5 - undefined;
-console.log();
+console.log("5 - undefined:", 5 - undefined);
 'text' + null;
-console.log();
+console.log("'text' + null:", 'text' + null);
 
 // Постфиксная и префиксная форма записи
 let num = 17;
