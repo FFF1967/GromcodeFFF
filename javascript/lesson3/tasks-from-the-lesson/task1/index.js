@@ -34,9 +34,10 @@ console.log();
 
 // математические операторы приводят операнды к числам
 const a = 17;
-console.log();
 const b = -a;
+console.log("-a: ", b);
 '24' / 4;
+console.log("'24' / 4: ", '24' / 4);
 18 * '3';
 '9' - '3';
 'seventeen' / 3;
