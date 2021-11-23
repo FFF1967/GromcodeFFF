@@ -13,11 +13,17 @@ console.log("10 + '5':", 10 + '5');
 console.log("'some' + 'text':", 'some' + 'text')
     // Математические операции с undefined возвращают NaN
 undefined + 1;
+console.log("undefined + 1:", undefined + 1);
 null + 8;
+console.log("null + 8:", null + 8);
 undefined + '5';
+console.log();
 7 - null;
+console.log();
 5 - undefined;
+console.log();
 'text' + null;
+console.log();
 
 // Постфиксная и префиксная форма записи
 let num = 17;
