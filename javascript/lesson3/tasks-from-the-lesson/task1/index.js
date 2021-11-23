@@ -28,10 +28,13 @@ console.log("'text' + null:", 'text' + null);
 // Постфиксная и префиксная форма записи
 let num = 17;
 ++num;
+console.log("++num:", ++num);
 num++;
+console.log();
 
 // математические операторы приводят операнды к числам
 const a = 17;
+console.log();
 const b = -a;
 '24' / 4;
 18 * '3';
