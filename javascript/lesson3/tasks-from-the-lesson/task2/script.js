@@ -50,4 +50,4 @@ console.log("' ' to boolean is " + String(true));
 console.log('17 to boolean is ');
 console.log("17 to boolean is " + String(true));
 console.log("'Hello' to boolean is ");
-console.log('' + String());
+console.log("'Hello' to boolean is" + String(true));
