@@ -16,7 +16,7 @@ console.log('a != b:', true);
 
 /* Сравнение строк */
 'a' < 'b';
-console.log("'a' < 'b':", false);
+console.log("'a' < 'b':", true);
 'ab' > 'a';
 console.log("'ab' > 'a':", true);
 
