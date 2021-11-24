@@ -26,28 +26,11 @@ console.log('null to number is ' + Number(0));
 console.log('undefined to number is ');
 console.log('undefined to number is ' + Number(NaN));
 console.log("'   20   ' to number is ");
-console.log('"   20   " to number is ' + Number("   20   "));
+console.log('"   20   " to number is ' + Number(20));
 console.log("'      ' to number is ");
 console.log('"      " to number is ' + Number("     "));
 console.log("'   30d   ' to number is ");
-console.log('"   30d   " to number is ' + Number("   30d   "));
+console.log('"   30d   " to number is ' + Number(NaNd "));
 
-/* cast to boolean */
-console.log('null to boolean is ');
-console.log('' + String());
-console.log('undefined to boolean is ');
-console.log('' + String());
-console.log('0 to boolean is ');
-console.log('' + String());
-console.log('-0 to boolean is ');
-console.log('' + String());
-console.log('NaN to boolean is ');
-console.log('' + String());
-console.log("'' to boolean is ");
-console.log('' + String());
-console.log("' ' to boolean is ");
-console.log('' + String());
-console.log('17 to boolean is ');
-console.log('' + String());
-console.log("'Hello' to boolean is ");
-console.log('' + String());
+            /* cast to boolean */
+            console.log('null to boolean is '); console.log('' + String()); console.log('undefined to boolean is '); console.log('' + String()); console.log('0 to boolean is '); console.log('' + String()); console.log('-0 to boolean is '); console.log('' + String()); console.log('NaN to boolean is '); console.log('' + String()); console.log("'' to boolean is "); console.log('' + String()); console.log("' ' to boolean is "); console.log('' + String()); console.log('17 to boolean is '); console.log('' + String()); console.log("'Hello' to boolean is "); console.log('' + String());
