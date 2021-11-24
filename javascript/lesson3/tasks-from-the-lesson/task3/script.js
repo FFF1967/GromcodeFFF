@@ -48,6 +48,7 @@ console.log("false === 0:", false);
 17 == '17';
 console.log("17 == '17':", true);
 '0' == '';
+console.log("'0' == '':", false);
 0 == '';
 null == undefined;
 false == 0;
