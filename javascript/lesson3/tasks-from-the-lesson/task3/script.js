@@ -52,7 +52,9 @@ console.log("'0' == '':", false);
 0 == '';
 console.log(" 0 == '':", true);
 null == undefined;
+console.log("null == undefined:", true);
 false == 0;
+
 
 /* Осторожно c null и undefined */
 undefined == null;
