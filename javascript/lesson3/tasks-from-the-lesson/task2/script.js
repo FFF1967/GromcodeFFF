@@ -44,7 +44,7 @@ console.log('-0 to boolean is ' + String(false));
 console.log('NaN to boolean is ');
 console.log('NaN to boolean is ' + String(false));
 console.log("'' to boolean is ");
-console.log('' + String());
+console.log("'' to boolean is " + String(false));
 console.log("' ' to boolean is ");
 console.log('' + String());
 console.log('17 to boolean is ');
