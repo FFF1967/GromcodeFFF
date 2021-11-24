@@ -41,8 +41,8 @@ true === true;
 console.log("true === true:", true);
 null === undefined;
 console.log("null === undefined:", false);
-
 false === 0;
+console.log("false === 0:", false);
 
 /* Нестрогое сравнение */
 17 == '17';
