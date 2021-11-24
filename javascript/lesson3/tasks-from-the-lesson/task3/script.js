@@ -50,6 +50,7 @@ console.log("17 == '17':", true);
 '0' == '';
 console.log("'0' == '':", false);
 0 == '';
+console.log(" 0 == '':", true);
 null == undefined;
 false == 0;
 
