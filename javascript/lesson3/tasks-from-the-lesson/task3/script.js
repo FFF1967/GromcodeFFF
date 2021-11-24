@@ -59,6 +59,7 @@ console.log("false == 0:", true);
 
 /* Осторожно c null и undefined */
 undefined == null;
+console.log("undefined == null:", true);
 undefined == 0;
 null == 0;
 undefined < 0;
