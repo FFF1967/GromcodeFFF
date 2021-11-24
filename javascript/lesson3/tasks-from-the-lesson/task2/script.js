@@ -28,9 +28,9 @@ console.log('undefined to number is ' + Number(NaN));
 console.log("'   20   ' to number is ");
 console.log("'   20   ' to number is " + Number(20));
 console.log("'      ' to number is ");
-console.log('"      " to number is ' + Number(NaN));
+console.log("'      ' to number is " + Number(NaN));
 console.log("'   30d   ' to number is ");
-console.log('"   30d   " to number is ' + Number(NaN));
+console.log("'   30d   ' to number is " + Number(NaN));
 
 /* cast to boolean */
 console.log('null to boolean is ');
