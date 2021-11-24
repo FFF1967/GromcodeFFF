@@ -36,7 +36,7 @@ console.log("'   30d   ' to number is " + Number(NaN));
 console.log('null to boolean is ');
 console.log('null to boolean is ' + String(false));
 console.log('undefined to boolean is ');
-console.log('' + String());
+console.log('undefined to boolean is ' + String(false));
 console.log('0 to boolean is ');
 console.log('' + String());
 console.log('-0 to boolean is ');
