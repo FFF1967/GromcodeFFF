@@ -30,7 +30,7 @@ console.log('"   20   " to number is ' + Number("   20   "));
 console.log("'      ' to number is ");
 console.log('"      " to number is ' + Number("     "));
 console.log("'   30d   ' to number is ");
-console.log('' + String());
+console.log('"   30d   " to number is ' + Number("   30d   "));
 
 /* cast to boolean */
 console.log('null to boolean is ');
