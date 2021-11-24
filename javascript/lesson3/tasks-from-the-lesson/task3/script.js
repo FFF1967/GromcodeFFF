@@ -38,6 +38,7 @@ console.log("'0' === '':", false);
 true === false;
 console.log("true === false:", false);
 true === true;
+console.log("true === true:", true);
 null === undefined;
 false === 0;
 
