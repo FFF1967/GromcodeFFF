@@ -10,7 +10,7 @@ console.log('false to string' + String(false));
 console.log('null to string is ');
 console.log('null to string is ' + String(null));
 console.log('undefined to string is ');
-console.log('undefined' + String(undefined));
+console.log('undefined to string is ' + String(undefined));
 console.log('0 to string is ');
 console.log('' + String());
 
