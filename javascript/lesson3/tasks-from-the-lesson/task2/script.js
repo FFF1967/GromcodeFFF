@@ -18,6 +18,7 @@ console.log('' + String());
 console.log("'17' to number is ");
 console.log('' + String());
 console.log('true to number is ');
+console.log('' + String());
 console.log('false to number is ');
 console.log('null to number is ');
 console.log('undefined to number is ');
