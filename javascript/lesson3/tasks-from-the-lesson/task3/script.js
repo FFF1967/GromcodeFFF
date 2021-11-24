@@ -26,9 +26,9 @@ console.log("'17' > 1:", true);
 
 /* Строгое сравнение */
 17 === 1;
-console.log("17 === 1:", true);
+console.log("17 === 1:", false);
 17 === 17;
-console.log("17 === 17:", true);
+console.log("17 === 17:", false);
 17 === '17';
 console.log("17 === '17':", true);
 17 === true;
