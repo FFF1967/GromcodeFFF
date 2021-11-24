@@ -46,5 +46,6 @@ console.log('' + String());
 console.log("'' to boolean is ");
 console.log('' + String());
 console.log("' ' to boolean is ");
+console.log('' + String());
 console.log('17 to boolean is ');
 console.log("'Hello' to boolean is ");
