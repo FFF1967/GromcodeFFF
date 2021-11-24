@@ -67,4 +67,4 @@ console.log("null == 0:", false);
 undefined < 0;
 console.log("undefined < 0:", false);
 undefined > 0;
-console.log("undefined > 0:", true);
+console.log("undefined > 0:", false);
