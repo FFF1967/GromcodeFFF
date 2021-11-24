@@ -12,7 +12,7 @@ console.log('null to string is ' + String(null));
 console.log('undefined to string is ');
 console.log('undefined to string is ' + String(undefined));
 console.log('0 to string is ');
-console.log('' + String());
+console.log('0 to string is ' + String(0));
 
 /* cast to number */
 console.log("'17' to number is ");
