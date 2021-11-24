@@ -46,6 +46,7 @@ console.log("false === 0:", false);
 
 /* Нестрогое сравнение */
 17 == '17';
+console.log("17 == '17':", true);
 '0' == '';
 0 == '';
 null == undefined;
