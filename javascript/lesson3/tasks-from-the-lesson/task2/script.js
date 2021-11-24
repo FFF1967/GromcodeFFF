@@ -26,6 +26,7 @@ console.log('' + String());
 console.log('undefined to number is ');
 console.log('' + String());
 console.log("'   20   ' to number is ");
+console.log('' + String());
 console.log("'      ' to number is ");
 console.log("'   30d   ' to number is ");
 
