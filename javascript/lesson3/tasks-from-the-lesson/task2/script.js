@@ -24,7 +24,7 @@ console.log('false to namber is ' + Namber('false'));
 console.log('null to number is ');
 console.log('null to namber is ' + Number('null'));
 console.log('undefined to number is ');
-console.log('' + String());
+console.log('undefined to is ' + Number('undefined'));
 console.log("'   20   ' to number is ");
 console.log('' + String());
 console.log("'      ' to number is ");
