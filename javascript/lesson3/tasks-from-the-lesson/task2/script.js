@@ -22,6 +22,7 @@ console.log('' + String());
 console.log('false to number is ');
 console.log('' + String());
 console.log('null to number is ');
+console.log('' + String());
 console.log('undefined to number is ');
 console.log("'   20   ' to number is ");
 console.log("'      ' to number is ");
