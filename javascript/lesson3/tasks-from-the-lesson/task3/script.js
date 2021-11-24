@@ -6,9 +6,13 @@
 const a = 17;
 const b = 5;
 a > b;
+console.log('a > b:', true);
 a <= b;
+console.log('a <= b:', false);
 a == b;
+console.log('a == b:', false);
 a != b;
+console.log('a != b:', true);
 
 /* Сравнение строк */
 'a' < 'b';
