@@ -40,6 +40,7 @@ console.log('' + String());
 console.log('0 to boolean is ');
 console.log('' + String());
 console.log('-0 to boolean is ');
+console.log('' + String());
 console.log('NaN to boolean is ');
 console.log("'' to boolean is ");
 console.log("' ' to boolean is ");
