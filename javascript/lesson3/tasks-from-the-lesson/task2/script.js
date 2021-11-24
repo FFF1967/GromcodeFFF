@@ -22,7 +22,7 @@ console.log('true to number is ' + Number(1));
 console.log('false to number is ');
 console.log('false to number is ' + Number(0));
 console.log('null to number is ');
-console.log('null to namber is ' + Number('null'));
+console.log('null to namber is ' + Number(0));
 console.log('undefined to number is ');
 console.log('undefined to is ' + Number('NaN'));
 console.log("'   20   ' to number is ");
