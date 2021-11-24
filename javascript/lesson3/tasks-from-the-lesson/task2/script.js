@@ -22,7 +22,7 @@ console.log('true to namber is ' + Namber('true'));
 console.log('false to number is ');
 console.log('false to namber is ' + Namber('false'));
 console.log('null to number is ');
-console.log('' + String());
+console.log('null to namber is ' + Number('null'));
 console.log('undefined to number is ');
 console.log('' + String());
 console.log("'   20   ' to number is ");
