@@ -28,7 +28,9 @@ console.log('' + String());
 console.log("'   20   ' to number is ");
 console.log('' + String());
 console.log("'      ' to number is ");
+console.log('' + String());
 console.log("'   30d   ' to number is ");
+console.log('' + String());
 
 /* cast to boolean */
 console.log('null to boolean is ');
