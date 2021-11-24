@@ -20,7 +20,7 @@ console.log("'17' to number is " + Number('17'));
 console.log('true to number is ');
 console.log('true to namber is ' + Namber('true'));
 console.log('false to number is ');
-console.log('false to namber is ' + tring());
+console.log('false to namber is ' + Namber('false'));
 console.log('null to number is ');
 console.log('' + String());
 console.log('undefined to number is ');
