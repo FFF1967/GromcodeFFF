@@ -34,6 +34,7 @@ console.log("17 === '17':", true);
 17 === true;
 console.log("17 === true:", false);
 '0' === '';
+console.log("'0' === '':", false);
 true === false;
 true === true;
 null === undefined;
