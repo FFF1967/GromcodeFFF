@@ -4,6 +4,7 @@
 console.log('17 to string is ');
 console.log('17 to string is ' + String(-17));
 console.log('-17.17 to string is ');
+console.log('17.17 to string is ' + String(-17.17));
 console.log('false to string is ');
 console.log('null to string is ');
 console.log('undefined to string is ');
