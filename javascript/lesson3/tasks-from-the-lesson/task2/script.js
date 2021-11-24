@@ -40,7 +40,7 @@ console.log('undefined to boolean is ' + String(false));
 console.log('0 to boolean is ');
 console.log('0 to boolean is ' + String(false));
 console.log('-0 to boolean is ');
-console.log('' + String());
+console.log('-0 to boolean is ' + String(false));
 console.log('NaN to boolean is ');
 console.log('' + String());
 console.log("'' to boolean is ");
