@@ -54,6 +54,7 @@ console.log(" 0 == '':", true);
 null == undefined;
 console.log("null == undefined:", true);
 false == 0;
+console.log("false == 0:", true);
 
 
 /* Осторожно c null и undefined */
