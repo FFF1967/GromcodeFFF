@@ -38,7 +38,7 @@ console.log('null to boolean is ' + String(false));
 console.log('undefined to boolean is ');
 console.log('undefined to boolean is ' + String(false));
 console.log('0 to boolean is ');
-console.log('' + String());
+console.log('0 to boolean is ' + String(false));
 console.log('-0 to boolean is ');
 console.log('' + String());
 console.log('NaN to boolean is ');
