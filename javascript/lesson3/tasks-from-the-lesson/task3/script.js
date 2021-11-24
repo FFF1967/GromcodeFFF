@@ -40,6 +40,8 @@ console.log("true === false:", false);
 true === true;
 console.log("true === true:", true);
 null === undefined;
+console.log("null === undefined:", false);
+
 false === 0;
 
 /* Нестрогое сравнение */
