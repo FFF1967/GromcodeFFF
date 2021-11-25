@@ -18,6 +18,7 @@ if (null) {
 
 // create age variable here
 
+let age = 17;
 if (age < 16) {
     console.log('Too young');
 } else if (age >= 16 && age < 18) {
@@ -31,5 +32,5 @@ if (age < 16) {
 // Тернаный оператор ? : ( const result = условие ? значение1 : значение2; )
 
 // create amount variable here
-
+let amount = 10;
 const result = amount > 17 ? 'full' : 'empty';
