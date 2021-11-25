@@ -20,6 +20,7 @@ console.log("true && true && true:", true);
 
 /* || находит первое истинное значение */
 'text' || false;
+console.log("'text' || false:", text);
 true || 'text';
 undefined || null || 0 || '' || null;
 
