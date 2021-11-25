@@ -20,8 +20,9 @@ console.log("true && true && true:", true);
 
 /* || находит первое истинное значение */
 'text' || false;
-console.log("'text' || false:", text);
+console.log("'text' || false:", true);
 true || 'text';
+console.log("true || 'text':", true);
 undefined || null || 0 || '' || null;
 
 const customAmount = null; // не выводим
