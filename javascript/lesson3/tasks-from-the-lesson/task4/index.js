@@ -2,6 +2,7 @@
 
 /* оператор || (OR) */
 false || true;
+console.log("false || true:", true);
 false || true || false;
 false || false || false;
 
