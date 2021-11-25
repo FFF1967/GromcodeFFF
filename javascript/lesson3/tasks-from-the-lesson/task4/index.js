@@ -43,5 +43,6 @@ console.log("undefined && null && 0 && '' && null:", undefined);
 !true;
 console.log("!true:", false);
 !false;
+console.log("!false:", true);
 !'text';
 !!'text';
