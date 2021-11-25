@@ -47,3 +47,4 @@ console.log("!false:", true);
 !'text';
 console.log("!false:", true);
 !!'text';
+console.log("!!'text':", true);
