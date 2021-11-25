@@ -41,6 +41,7 @@ console.log("undefined && null && 0 && '' && null:", undefined);
 
 /* оператор отрицания (OR) */
 !true;
+console.log("!true:", false);
 !false;
 !'text';
 !!'text';
