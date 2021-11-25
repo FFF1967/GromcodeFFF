@@ -24,6 +24,8 @@ console.log("'text' || false:", true);
 true || 'text';
 console.log("true || 'text':", true);
 undefined || null || 0 || '' || null;
+console.log("undefined || null || 0 || '' || null:", null);
+
 
 const customAmount = null; // не выводим
 const defaultAmount = 17; // не выводим
