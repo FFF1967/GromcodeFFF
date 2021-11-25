@@ -27,12 +27,13 @@ undefined || null || 0 || '' || null;
 console.log("undefined || null || 0 || '' || null:", null);
 
 
-const customAmount = null; // не выводим
-const defaultAmount = 17; // не выводим
-const amount = customAmount || defaultAmount; // выводим значение переменной amount в формате console.log('amount:', amount);
+//const customAmount = null; // не выводим
+//const defaultAmount = 17; // не выводим
+//const amount = customAmount || defaultAmount; // выводим значение переменной amount в формате console.log('amount:', amount);
 
 /* && находит первое ложное значение */
 'text' && false;
+console.log("'text' && false:", false);
 true && 'text';
 undefined && null && 0 && '' && null;
 
