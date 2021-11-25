@@ -10,7 +10,8 @@ const anotherMessage = 'text as well';
 const isLoggedIn = Boolean(userName);
 
 /* В коде ниже нужно использовать правильные операторы после знака присваивания */
-const activeUser = anotherUser /**/ defaultUserName;
+const activeUser = anotherUser || defaultUserName;
+console.log(activeUser);
 const hasAccess = isAdmin /**/ isLoggedIn;
 const isTruthy = message /**/ anotherMessage;
 const isFalsy = /**/ isLoggedIn;
