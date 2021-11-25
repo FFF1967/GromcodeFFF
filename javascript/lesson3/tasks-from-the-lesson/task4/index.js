@@ -14,6 +14,7 @@ console.log("false && true:", false);
 false && true && false;
 console.log("false && true && false:", false);
 true && true && true;
+console.log("true && true && true:", true);
 
 /* Логические операторы могут применятся к любым типам данных */
 
