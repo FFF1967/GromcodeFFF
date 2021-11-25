@@ -36,7 +36,7 @@ console.log("customAmount || defaultAmount:", undefined);
 'text' && false;
 console.log("'text' && false:", false);
 true && 'text';
-console.log("true && 'text:", 'text');
+console.log("true && 'text':", 'text');
 undefined && null && 0 && '' && null;
 console.log("undefined && null && 0 && '' && null:", undefined);
 
