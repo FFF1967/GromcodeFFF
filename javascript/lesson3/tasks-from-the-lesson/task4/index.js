@@ -10,6 +10,7 @@ console.log("false || false || false:", false);
 
 /* оператор && (AND) */
 false && true;
+console.log("false && true:", false);
 false && true && false;
 true && true && true;
 
