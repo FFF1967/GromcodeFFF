@@ -35,7 +35,9 @@ console.log("undefined || null || 0 || '' || null:", null);
 'text' && false;
 console.log("'text' && false:", false);
 true && 'text';
+console.log("true && 'text:", text);
 undefined && null && 0 && '' && null;
+console.log("undefined && null && 0 && '' && null:", undefined);
 
 /* оператор отрицания (OR) */
 !true;
