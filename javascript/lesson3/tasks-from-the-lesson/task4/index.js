@@ -20,7 +20,7 @@ console.log("true && true && true:", true);
 
 /* || находит первое истинное значение */
 'text' || false;
-console.log("'text' || false:", text);
+console.log("'text' || false:", 'text');
 true || 'text';
 console.log("true || 'text':", true);
 undefined || null || 0 || '' || null;
@@ -36,7 +36,7 @@ console.log("customAmount || defaultAmount:", undefined);
 'text' && false;
 console.log("'text' && false:", false);
 true && 'text';
-console.log("true && 'text:", text);
+console.log("true && 'text:", 'text');
 undefined && null && 0 && '' && null;
 console.log("undefined && null && 0 && '' && null:", undefined);
 
