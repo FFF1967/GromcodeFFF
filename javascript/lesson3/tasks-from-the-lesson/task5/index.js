@@ -18,7 +18,7 @@ if (null) {
 
 // create age variable here
 
-let age = 17;
+let age = 27;
 if (age < 16) {
     console.log('Too young');
 } else if (age >= 16 && age < 18) {
