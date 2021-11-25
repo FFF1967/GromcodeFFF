@@ -46,6 +46,6 @@ console.log("!true:", false);
 !false;
 console.log("!false:", true);
 !'text';
-console.log("!false:", true);
+console.log("!false:", false);
 !!'text';
 console.log("!!'text':", true);
