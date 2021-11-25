@@ -4,6 +4,7 @@
 false || true;
 console.log("false || true:", true);
 false || true || false;
+console.log("false || true || false:", true);
 false || false || false;
 
 /* оператор && (AND) */
