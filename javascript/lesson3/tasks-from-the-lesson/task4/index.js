@@ -20,14 +20,14 @@ console.log("true && true && true:", true);
 
 /* || находит первое истинное значение */
 'text' || false;
-console.log("'text' || false:", true);
+console.log("'text' || false:", text);
 true || 'text';
 console.log("true || 'text':", true);
 undefined || null || 0 || '' || null;
 console.log("undefined || null || 0 || '' || null:", null);
 
 
-//const customAmount = null; // не выводим
+const customAmount = null; // не выводим
 //const defaultAmount = 17; // не выводим
 //const amount = customAmount || defaultAmount; // выводим значение переменной amount в формате console.log('amount:', amount);
 
