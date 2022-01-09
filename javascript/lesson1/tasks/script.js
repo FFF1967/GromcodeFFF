@@ -5,4 +5,4 @@ let c = 4;
 console.log(c);
 //console.log(e);
 
-//document.querySelector('a').innerText = 'Hello world!';
+document.querySelector('a').innerText = 'Hello world!';
