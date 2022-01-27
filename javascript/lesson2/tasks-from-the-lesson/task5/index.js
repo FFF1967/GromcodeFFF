@@ -1,7 +1,9 @@
 const a = 17;
 console.log('a:', typeof a);
 const b = 17.17;
+console.log('17.17', typeof 17.17);
 const c = '17';
+
 const d = '17';
 const e = "I'm a string";
 const f = false;
