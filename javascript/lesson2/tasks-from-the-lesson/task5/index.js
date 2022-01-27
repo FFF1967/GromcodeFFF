@@ -1,4 +1,5 @@
 const a = 17;
+console.log('a:', typeof a);
 const b = 17.17;
 const c = '17';
 const d = '17';
