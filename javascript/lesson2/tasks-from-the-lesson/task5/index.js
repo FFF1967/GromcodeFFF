@@ -19,7 +19,7 @@ console.log('i:', typeof i);
 const j = Symbol("I'm a Symbol");
 console.log('j:', typeof j);
 const k = { name: 'John' };
-console.log('k:', typeof j);
+console.log('k:', typeof k);
 const l = [1, 2, 3, 4];
 console.log('l:', typeof l);
 const m = function run() {
