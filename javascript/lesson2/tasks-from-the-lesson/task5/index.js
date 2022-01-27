@@ -1,12 +1,15 @@
 const a = 17;
 console.log('a:', typeof a);
 const b = 17.17;
-console.log('17.17', typeof 17.17);
+console.log('b:', typeof b);
 const c = '17';
-
+console.log('c:', typeof c);
 const d = '17';
+console.log('d:', typeof d);
 const e = "I'm a string";
+console.log('e:', typeof d);
 const f = false;
+
 const g = true;
 const h = null;
 const i = undefined;
