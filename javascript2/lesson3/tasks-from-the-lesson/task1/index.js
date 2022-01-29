@@ -16,6 +16,7 @@ console.log("'some' + 'text':", 'some' + 'text');
 undefined + 1;
 console.log("undefined + 1:", undefined + 1);
 null + 8;
+console.log("null + 8:", null + 8);
 undefined + '5';
 7 - null;
 5 - undefined;
