@@ -55,6 +55,7 @@ console.log(" 17 / 0:", 17 / 0);
 10 + 'seven';
 console.log("10 + 'seven':", 10 + 'seven');
 undefined + 1;
+console.log("undefined + 1:", undefined + 1);
 null + 8;
 undefined + '5';
 'text' + null;
