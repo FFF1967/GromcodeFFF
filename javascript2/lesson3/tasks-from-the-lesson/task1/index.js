@@ -42,7 +42,7 @@ console.log("b:", b);
 '24' / 4;
 console.log("'24' / 4:", '24' / 4);
 18 * '3';
-console.log("18 * ")
+console.log("18 * '3':", 18 * '3');
 '9' - '3';
 'seventeen' / 3;
 4 * 'four';
