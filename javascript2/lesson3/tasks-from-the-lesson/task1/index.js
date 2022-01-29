@@ -20,13 +20,19 @@ console.log("null + 8:", null + 8);
 undefined + '5';
 console.log("undefined + '5':", undefined + '5');
 7 - null;
+console.log(" 7 - null:", 7 - null);
 5 - undefined;
+console.log(" 5 - undefined:", 5 - undefined);
 'text' + null;
+console.log("'text' + null:", 'text' + null);
 
 // Постфиксная и префиксная форма записи
 let num = 17;
+console.log("num:", num);
 ++num;
+console.log("++num:", ++num);
 num++;
+console.log("num++:", num++);
 
 // математические операторы приводят операнды к числам
 const a = 17;
