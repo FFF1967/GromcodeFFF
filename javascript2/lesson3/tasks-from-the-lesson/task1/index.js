@@ -14,6 +14,7 @@ console.log("'some' + 'text':", 'some' + 'text');
 
 // Математические операции с undefined возвращают NaN
 undefined + 1;
+console.log("undefined + 1:", undefined + 1);
 null + 8;
 undefined + '5';
 7 - null;
