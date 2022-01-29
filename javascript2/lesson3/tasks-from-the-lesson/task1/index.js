@@ -50,8 +50,10 @@ console.log("'seventeen' / 3:", 'seventeen' / 3);
 4 * 'four';
 console.log("4 * 'four':", 4 * 'four');
 17 / 0;
+console.log(" 17 / 0:", 17 / 0);
 
 10 + 'seven';
+console.log("10 + 'seven':", 10 + 'seven');
 undefined + 1;
 null + 8;
 undefined + '5';
