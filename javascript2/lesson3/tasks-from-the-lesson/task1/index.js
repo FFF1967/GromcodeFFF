@@ -46,7 +46,9 @@ console.log("18 * '3':", 18 * '3');
 '9' - '3';
 console.log("'9' - '3':", '9' - '3');
 'seventeen' / 3;
+console.log("'seventeen' / 3:", 'seventeen' / 3);
 4 * 'four';
+console.log("4 * 'four':", 4 * 'four');
 17 / 0;
 
 10 + 'seven';
