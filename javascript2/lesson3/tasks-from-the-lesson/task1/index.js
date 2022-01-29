@@ -57,5 +57,8 @@ console.log("10 + 'seven':", 10 + 'seven');
 undefined + 1;
 console.log("undefined + 1:", undefined + 1);
 null + 8;
+console.log("null + 8:", null + 8);
 undefined + '5';
+console.log("undefined + '5':", undefined + '5');
 'text' + null;
+console.log("'text' = null:", 'text' + null);
