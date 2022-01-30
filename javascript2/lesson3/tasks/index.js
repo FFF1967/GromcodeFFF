@@ -7,23 +7,23 @@ String(0); //'0'
 
 /*===*/
 
-Number('17');
-Number(true);
-Number(false);
-Number(null);
-Number(undefined);
-Number('   17   ');
-Number('           ');
-Number('       17d        ');
+Number('17'); //17
+Number(true); //1
+Number(false); //0
+Number(null); //0
+Number(undefined); //NaN
+Number('   17   '); // 17
+Number('           '); // 0
+Number('       17d        '); // NaN
 
 /*===*/
 
-Boolean(null);
-Boolean(undefined);
-Boolean(0);
-Boolean(-0);
-Boolean(NaN);
-Boolean('');
-Boolean(' ');
-Boolean(17);
-Boolean('Hello');
+Boolean(null); // false
+Boolean(undefined); // false
+Boolean(0); // false
+Boolean(-0); // false
+Boolean(NaN); // false
+Boolean(''); // false
+Boolean(' '); // true
+Boolean(17); // true
+Boolean('Hello'); //
