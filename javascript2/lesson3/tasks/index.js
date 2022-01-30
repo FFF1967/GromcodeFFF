@@ -19,3 +19,11 @@ Number();
 /*===*/
 
 Boolean();
+Boolean();
+Boolean();
+Boolean();
+Boolean();
+Boolean();
+Boolean();
+Boolean();
+Boolean();
