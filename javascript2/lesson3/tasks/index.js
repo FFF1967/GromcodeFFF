@@ -1,9 +1,9 @@
-String(17);
-String(-17.17);
-String(false);
-String(null);
-String(1);
-String(0);
+String(17); //'17'
+String(-17.17); //'-17.17'
+String(false); //'false'
+String(null); //'null'
+String(1); //'1'
+String(0); //'0'
 
 /*===*/
 
