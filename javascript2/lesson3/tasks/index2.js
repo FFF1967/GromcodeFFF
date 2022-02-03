@@ -39,14 +39,13 @@ false === 0; // false
 0 == ''; // true
 0 === ''; // false
 
-17 == '17'; //
-'0' == ''; //
-0 == '';
-null == undefined;
-false == 0;
-//
-undefined == null;
-undefined == 0;
-null == 0;
-undefined < 0;
-undefined > 0;
+17 == '17'; // true
+'0' == ''; // false
+0 == ''; // true
+null == undefined; // true
+false == 0; // true
+undefined == null; // true
+undefined == 0; // false
+null == 0; // false
+undefined < 0; // false
+undefined > 0; // false
