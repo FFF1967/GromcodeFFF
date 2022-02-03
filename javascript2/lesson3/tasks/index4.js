@@ -18,3 +18,7 @@ if (age < 16) {
 } else {
     console.log('Else');
 }
+
+// ? : ( const result = условие ? значение1 : значение2 ; )
+
+result = amount > 17 ? 'full' : 'empty';
