@@ -14,10 +14,11 @@ false; // 0
 
 
 // Бинарный плюс складывает строки или прибавляет числа
-10 + '5';
+10 + '5'; // '105'
 console.log("10 + '5':", 10 + '5');
-'some' + 'text';
+'some' + 'text'; // 'sometext'
 console.log("'some' + 'text':", 'some' + 'text');
+1 + 3 + '6'; // '46'
 
 // Математические операции с undefined возвращают NaN
 undefined + 1;
@@ -45,9 +46,9 @@ const a = 17;
 console.log("a:", a);
 const b = -a;
 console.log("b:", b);
-'24' / 4;
+'24' / 4; // 6
 console.log("'24' / 4:", '24' / 4);
-18 * '3';
+18 * '3'; // 6
 console.log("18 * '3':", 18 * '3');
 '9' - '3';
 console.log("'9' - '3':", '9' - '3');
