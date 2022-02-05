@@ -1,38 +1,51 @@
-// оператор || (OR)
-false || true; // true
-false || true || false; // true
-false || false || false; // false
+const a = 17;
+const b = 5;
 
-// оператор && (AND)
-false && true; // false
-false && true && false; // false
-true && true && true; // true
-true && true; // true
+// Результатом сравнения является булево
 
-// Логические операторы могут применяться к любым типам данных
+a > b; // true
+a < b; // false
+a <= b; // false
+a >= b; // true
+a == b; // false
+a != b; // true
 
-//  || находит первое истинное значение
+/* === */
 
-'text' || false; // 'text'
-true || 'text'; // true
-undefined || null || 0 || '' || null; // null
+'a' < 'b'; // true
+'ab' > 'a'; // true
+'aa' <= 'a'; // false
+'aa' >= 'a'; // true
+'a' > 'A'; // true
 
+// При сравнении переменных разных типов
 
-const customAmont = null;
-const defaultAmount = 17;
-const amount = customAmont || defaultAmount;
+'17' > 1; // true
 
+17 == '17'; // true
 
-// && находит первое ложное значение
+17 === 1; // false
+17 === 17; // true
+17 === '17'; // false
+17 === true; // false
+'0' === ''; // false
+true === false; // false
+true === true; // true
+null === undefined; // flse
+false === 0; // false
 
-'text' && false; // false
-true && 'text'; // 'text'
-undefined && null && 0 && '' && null; // undefined; // undefined
+/* === */
 
-/* == */
-!true; // false
-!false; // true
-!'text'; // false
-!!'text'; // true
+0 == ''; // true
+0 === ''; // false
 
-// ! -> && ->
+17 == '17'; // true
+'0' == ''; // false
+0 == ''; // true
+null == undefined; // true
+false == 0; // true
+undefined == null; // true
+undefined == 0; // false
+null == 0; // false
+undefined < 0; // false
+undefined > 0; // false

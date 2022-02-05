@@ -1,24 +1,38 @@
-if (true) console.log('I\'m in'); // I'm in
+// оператор || (OR)
+false || true; // true
+false || true || false; // true
+false || false || false; // false
 
-if (true) { console.log('I\'m in'); } // undefined
+// оператор && (AND)
+false && true; // false
+false && true && false; // false
+true && true && true; // true
+true && true; // true
+
+// Логические операторы могут применяться к любым типам данных
+
+//  || находит первое истинное значение
+
+'text' || false; // 'text'
+true || 'text'; // true
+undefined || null || 0 || '' || null; // null
 
 
-if ('text') { console.log('Yes'); } // Yes
+const customAmont = null;
+const defaultAmount = 17;
+const amount = customAmont || defaultAmount;
 
-if (null) { console.log('Yes'); } else { console.log('Else'); } // Else
 
+// && находит первое ложное значение
 
-const age = 17;
-if (age < 16) {
-    console.log('Too young');
-} else if (age >= 16 && age < 18) {
-    console.log('Almost ready');
-} else if (age >= 18 && age < 65) {
-    console.log('Ready');
-} else {
-    console.log('Else');
-}
+'text' && false; // false
+true && 'text'; // 'text'
+undefined && null && 0 && '' && null; // undefined; // undefined
 
-// ? : ( const result = условие ? значение1 : значение2 ; )
+/* == */
+!true; // false
+!false; // true
+!'text'; // false
+!!'text'; // true
 
-result = amount > 17 ? 'full' : 'empty';
+// ! -> && ->
